@@ -1,2 +1,6 @@
 language: python
+addons:
+  apt:
+    packages:
+      - jmeter
 script: python3 test.py
